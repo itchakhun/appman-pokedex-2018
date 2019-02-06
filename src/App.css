@@ -42,8 +42,9 @@
     padding: 1rem;
     background: transparent;
     color: #ec5656;
-    font-size: 18px;
+    font-size: 14px;
     outline: none;
+    font-weight: bold;
 }
 
 .button:hover {

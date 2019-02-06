@@ -29,6 +29,7 @@
 
 .card-list__item--right {
     flex: 1;
+    margin-left: 15px;
 }
 
 .card__search-input {
@@ -36,15 +37,19 @@
 }
 
 .button {
-    border: 1px solid lightgray;
+    border: none;
     border-radius: 6px;
     padding: 1rem;
-    background: white;
+    background: transparent;
+    color: #ec5656;
+    font-size: 18px;
+    outline: none;
 }
 
 .button:hover {
-    background-color: lightgray;
+    background-color: transparent;
     cursor: pointer;
+    opacity: 0.8;
 }
 
 .level {

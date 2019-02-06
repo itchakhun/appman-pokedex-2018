@@ -8,7 +8,6 @@ class MyDex extends Component {
     show: false,
     cards: [],
   }
-  
 
   handleShow = (show) => {
     this.setState({ show })
@@ -42,7 +41,7 @@ class MyDex extends Component {
           </div>
         </div>
         <div className="text-center">
-          <Button content="ADD" onClick={() => this.handleShow(!show)} />
+          <Button content="Add new Pokemon" onClick={() => this.handleShow(!show)} />
         </div>
         <Modal selectedCards={cards} show={show} onClose={() => this.handleShow(false)} onSelectCard={this.addCard} />
       </div>

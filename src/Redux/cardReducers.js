@@ -30,7 +30,7 @@ const mapCards = (card) => {
         strength_level,
         damage,
         weak_level,
-        happiness: Math.ceil(Math.abs(happiness || 0)),
+        happiness: happiness || 0,
     }
 }
 

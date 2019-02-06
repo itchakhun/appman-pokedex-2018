@@ -23,7 +23,7 @@ function PokeCard(props) {
                     <span>WEAK: {weak_level} %</span>
                 </div>
                 <div>
-                    <Level level={happiness} max={5} />
+                    <span>Happiness: {happiness}</span>
                 </div>
             </div>
             <div>

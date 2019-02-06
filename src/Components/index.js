@@ -1,5 +1,4 @@
 export * from './Level'
-export * from './Input'
 export * from './Button'
 export * from './Card'
 export * from './Modal'

@@ -33,7 +33,7 @@ class CardModal extends Component {
             return (type.toLowerCase().includes(searchTerm.toLowerCase()) || name.toLowerCase().includes(searchTerm.toLowerCase())) && !selected;
         })
         return (
-        <div className="modal-container" onClick={onClose}>
+        <div className="modal-container">
             <input onChange={this.handleSearch} value={searchTerm} class="card__search-input card" placeholder="Search Pokemon" />
             <div className="bg-white card">
             <div className="card-list">

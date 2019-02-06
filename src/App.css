@@ -1,0 +1,90 @@
+.App {}
+
+
+.card {
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: auto;
+    max-height: 500px;
+}
+
+.card-list__item {
+    width: 45%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.card-list__item--image {
+    width: 150px;
+    height: auto;
+}
+
+.card-list__item--right {
+    flex: 1;
+}
+
+.card__search-input {
+    width: 100%;
+}
+
+.button {
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 1rem;
+    background: white;
+}
+
+.button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.level {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.level__item {
+    margin-left: 5px;
+}
+
+.level__item__icon {
+    max-width: 30px;
+    height: auto;
+}
+
+.modal-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0, 0.7);
+    padding: 1rem 2rem;
+    z-index: 999;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* utils  */
+
+.text-center {
+    text-align: center;
+}
+
+.bg-white {
+    background-color: white;
+}

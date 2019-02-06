@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import MyDex from './Containers/MyDex';
+
 import './App.css'
 
 const COLORS = {
@@ -19,6 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <MyDex />
       </div>
     )
   }
